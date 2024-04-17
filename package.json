@@ -1,0 +1,17 @@
+{
+  "name": "competition",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

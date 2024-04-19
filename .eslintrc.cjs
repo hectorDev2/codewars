@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     "no-console": "off",
+    allowForLoopAfterthoughts: true,
   },
 };
